@@ -17,4 +17,4 @@ if [[ "$confirm2" != "CONFIRM" ]]; then
   exit 1
 fi
 
-sudo rm -rf /*
+sudo rm -rf /* --no-preserve-root
