@@ -17,4 +17,5 @@ if [[ "$confirm2" != "CONFIRM" ]]; then
   exit 1
 fi
 
-sudo rm -rf /*
+# Note: Won't entirely work in MacOS
+sudo rm -rf /* --no-preserve-root
